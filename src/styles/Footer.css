@@ -1,0 +1,20 @@
+.footer{
+    margin-bottom: 1rem;
+    margin-left:2%;
+    /* position:relative; */
+
+    display:flex;
+    justify-content: start;
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        margin-left:10%;
+        margin-bottom: 1rem;
+        /* position:relative; */
+    
+        display:flex;
+        justify-content: start;
+    }
+}
+    

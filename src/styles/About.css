@@ -1,0 +1,52 @@
+@import "./root.css";
+
+
+.myProfilePic img {
+border-radius: 4rem;
+}
+
+.myFullName{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--orange);
+}
+
+.myLocation{
+    color: var(--orange);
+}
+
+.myAboutMe{
+    color: white;
+    font-weight: 400;
+    font-size: large;
+}
+
+.myNickName{
+    font-size: 1rem;
+    font-weight: 800;
+    font-style: italic;
+    color: var(--orange);
+}
+
+.myLoveMessage{
+    color:pink;
+    font-weight:700;
+    font-style: italic;
+}
+
+.mySkillFrontEnd, .mySkillBackEnd, .mySkillOthers {
+    margin-left: 5%;
+    list-style-type: none
+
+}
+
+.mySkill img {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;   
+}
+
+.mySkill h5 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--orange);
+}

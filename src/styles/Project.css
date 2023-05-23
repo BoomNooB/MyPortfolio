@@ -1,0 +1,168 @@
+@import "./root.css";
+
+.projectDescription{
+    color:white;
+}
+
+.projectArrowLeft{
+    font-size: 3.5rem;
+    cursor: pointer;
+    color: whitesmoke;
+    transition: color 300ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left:10%;
+    transform: translate(-50%, -50%);
+    margin-top: 20rem;
+
+}
+
+.projectArrowRight{
+    font-size: 3.5rem;
+    cursor: pointer;
+    transition: color 300ms;
+    color: whitesmoke;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left:90%;
+    transform: translate(-50%, -50%);
+    margin-top: 20rem;
+}
+
+.projectArrowRight:hover, .projectArrowLeft:hover{
+    color: var(--orange);
+  
+}
+
+.projectName{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--orange)
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-top: 0%;
+}
+
+.projectImage img {
+    width: 50%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 2em #646cffaa;
+    transition: box-shadow 300ms;
+}
+
+.projectImage img:hover{
+    box-shadow: 0 0 2em #646cff;
+}
+
+.projectImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.projectDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectDetail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.projectDescription p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.projectTechStack{
+    margin:2rem;
+}
+
+.projectTechStack ul {
+    color: var(--orange);
+    font-weight:700;
+    text-align: center;
+}
+
+.projectTechStackSection{
+    justify-content: space-between;
+}
+
+.projectTechStack li {
+    list-style-type: none
+}
+
+.projectTechStack h3{
+    color : var(--orange);
+    font-weight: 700;
+
+}
+
+
+.projectTechImageVisit {
+    filter: invert(1);
+    width:3rem;
+}
+
+.projectTextHighlightOrange{
+    color: var(--orange);
+    font-weight: 700;
+    font-style: italic;
+}
+.projectTextHighlightPink{
+    color: pink;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.projectTechImage{
+    width:3rem;
+}
+
+
+.item-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .item-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  .item-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .item-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
