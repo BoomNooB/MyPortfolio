@@ -24,12 +24,33 @@ const About = () => {
 			<Container fluid className="about-section">
 				<Container>
 					<Row className="align-items-center">
-						<Col className="myProfilePic">
+						<Col
+							className="myProfilePic 
+						d-sm-none
+						d-none
+						d-lg-block"
+						>
 							<img src={profilePic} alt="profile" className="img-fluid" />
 						</Col>
 						<Col className="myAboutMe">
-							<div className="myFullName d-flex justify-content-center">
-								<h1>THATPONG PALEEKAN</h1>
+							<div className="myFullName d-flex flex-column ">
+								<h1 className="d-flex justify-content-center align-items-center">
+									THATPONG PALEEKAN
+								</h1>
+								{/* Responsive Picture */}
+								<Col
+									className="myProfilePic 
+									d-sm-block 
+									d-lg-none
+								justify-content-center d-flex"
+								>
+									<img
+										src={profilePic}
+										alt="profile"
+										className="img-fluid"
+										width="100%"
+									/>
+								</Col>
 							</div>
 							<hr></hr>
 							<div className="myHelloMessage">
