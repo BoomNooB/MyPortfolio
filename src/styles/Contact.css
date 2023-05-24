@@ -9,10 +9,6 @@
     align-items: center;
     margin-bottom: 2rem;
 }
-.contactLogo img{
-    margin: 1rem;
-    transition: all 0.3s ease-in-out;
-}
 
 .contactHeader{
     display: flex;
