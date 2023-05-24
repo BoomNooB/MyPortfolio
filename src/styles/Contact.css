@@ -4,9 +4,14 @@
 
 .contactLogo{
     display: flex;
-   justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 2rem;
+}
+.contactLogo img{
+    margin: 1rem;
+    transition: all 0.3s ease-in-out;
 }
 
 .contactHeader{
