@@ -24,26 +24,21 @@ const Navigation = () => {
 					onClick={handleDrawerToggle}
 				/>
 				<Navbar.Collapse id="basic-navbar-nav">
-					<Nav className="ml-auto">
-						{!isResponsive && (
-							<>
-								<Nav.Link href="#projects" style={{ marginLeft: "2rem" }}>
-									Projects
-								</Nav.Link>
-							</>
-						)}
+					<Nav
+						className="ml-auto d-lg-block d-md-none d-sm-none d-none
+"
+					>
+						<Nav.Link href="#projects" style={{ marginLeft: "2rem" }}>
+							Projects
+						</Nav.Link>
 					</Nav>
-
-					<Nav className="ms-auto">
-						{" "}
-						{/* Use 'ms-auto' class here */}
-						{!isResponsive && (
-							<>
-								<Nav.Link href="#contact" style={{ marginRight: "2rem" }}>
-									Contact
-								</Nav.Link>
-							</>
-						)}
+					<Nav
+						className="ms-auto d-lg-block d-md-none d-sm-none d-none
+"
+					>
+						<Nav.Link href="#contact" style={{ marginRight: "2rem" }}>
+							Contact
+						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
