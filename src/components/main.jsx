@@ -6,6 +6,7 @@ import Contact from "./Contact.jsx";
 import Footer from "./Footer.jsx";
 import Navbar from "./Navbar.jsx";
 import Project from "./Project.jsx";
+import ProjectResponsive from "./ProjectResponsive.jsx";
 import Test from "./test.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 		<Navbar />
 		<About />
 		<Project />
+		<ProjectResponsive />
 		<Contact />
 		<Footer />
 	</React.StrictMode>
