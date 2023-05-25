@@ -17,6 +17,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 		<ProjectResponsive />
 		<Contact />
 		<Footer />
-		<PathRedirect />
+		{/* <PathRedirect />  */}
 	</React.StrictMode>
 );
