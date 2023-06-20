@@ -5,16 +5,19 @@ import ColmarResponsive from "../assets/images/ColmarResponsive.png";
 import FindMyHat from "../assets/images/FindMyHat.gif";
 import GTraineeLogin from "../assets/images/G-trainee-Login-SS.png";
 import GTraineeHome from "../assets/images/G-trainee-Web-SS.jpg";
+import GoTodoListAPI from "../assets/images/Go-Todo-API.gif";
 import KeyboardBlog from "../assets/images/KeyboardBlog.jpg";
 
 // Tech Stack Icons
 import BootstrapIcon from "../assets/images/Bootstrap.svg";
 import CSSIcon from "../assets/images/CSS.svg";
 import ChartJSIcon from "../assets/images/ChartJS.png";
+import DockerIcon from "../assets/images/Docker.svg";
 import ExpressIcon from "../assets/images/ExpressJS.svg";
 import FigmaIcon from "../assets/images/Figma.svg";
 import GitIcon from "../assets/images/Git.svg";
 import GithubIcon from "../assets/images/Github.svg";
+import GoIcon from "../assets/images/Go.svg";
 import Giwon from "../assets/images/Gwon-Only-G.png";
 import HTMLIcon from "../assets/images/HTML.svg";
 import JavaScriptIcon from "../assets/images/JS.svg";
@@ -55,6 +58,52 @@ const projectList = [
 			},
 		],
 		images: [GTraineeLogin, GTraineeHome],
+	},
+	{
+		name: "Go: To-Do List API ",
+
+		description: `&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		I recently completed a project where I developed the 
+		<span className="projectTextHighlightOrange">
+		back-end 
+		</span>
+		side of a web application using 
+		<span className="projectTextHighlightOrange">
+		Go. 
+		</span>
+		My primary goal was to implement three essential HTTP request methods: GET, POST, and DELETE. I chose to utilize the powerful 
+		<span className="projectTextHighlightPink">
+		Gin-gonic 
+		</span>
+		framework for efficient routing and handling of these requests. For seamless interaction with the database, I integrated the versatile 
+		<span className="projectTextHighlightPink">
+		GORM 
+		</span>
+
+		library.
+
+		To simplify the deployment process, I employed 
+		<span className="projectTextHighlightOrange">
+
+		Docker 
+		</span>
+
+		to run the MariaDB database. Docker provided an easy and streamlined setup, ensuring smooth integration with the application.
+		
+		`,
+		techStack: {
+			frontEnd: null,
+			backEnd: [GoIcon, DockerIcon],
+			other: null,
+		},
+		visit: [
+			{
+				website: "https://github.com/BoomNooB/Go-todo-api",
+				linkImage: GithubIcon,
+			},
+		],
+
+		images: [GoTodoListAPI, GoTodoListAPI],
 	},
 	{
 		name: "Find My Hat",
