@@ -17,16 +17,19 @@ import ColmarResponsive from "../assets/images/ColmarResponsive.png";
 import FindMyHat from "../assets/images/FindMyHat.gif";
 import GTraineeLogin from "../assets/images/G-trainee-Login-SS.png";
 import GTraineeHome from "../assets/images/G-trainee-Web-SS.jpg";
+import GoTodoListAPI from "../assets/images/Go-Todo-API.gif";
 import KeyboardBlog from "../assets/images/KeyboardBlog.jpg";
 
 // Tech Stack Icons
 import BootstrapIcon from "../assets/images/Bootstrap.svg";
 import CSSIcon from "../assets/images/CSS.svg";
 import ChartJSIcon from "../assets/images/ChartJS.png";
+import DockerIcon from "../assets/images/Docker.svg";
 import ExpressIcon from "../assets/images/ExpressJS.svg";
 import FigmaIcon from "../assets/images/Figma.svg";
 import GitIcon from "../assets/images/Git.svg";
 import GithubIcon from "../assets/images/Github.svg";
+import GoIcon from "../assets/images/Go.svg";
 import Giwon from "../assets/images/Gwon-Only-G.png";
 import HTMLIcon from "../assets/images/HTML.svg";
 import JavaScriptIcon from "../assets/images/JS.svg";

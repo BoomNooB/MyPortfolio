@@ -71,7 +71,14 @@ const projectList = [
 		<span className="projectTextHighlightOrange">
 		Go. 
 		</span>
-		My primary goal was to implement three essential HTTP request methods: GET, POST, and DELETE. I chose to utilize the powerful 
+		My primary goal was to implement three essential HTTP request methods: GET, POST, and DELETE. 
+		To enhance the security of the application, I chose to integrate 
+		<span className="projectTextHighlightOrange">
+		JWT 
+		</span>
+
+		for authentication and verification purposes.
+		And also for efficient routing and handling of these requests, I utilized the powerful 
 		<span className="projectTextHighlightPink">
 		Gin-gonic 
 		</span>

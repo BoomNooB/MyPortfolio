@@ -4,9 +4,11 @@ import { FaBeer, FaHeart } from "react-icons/fa";
 import BootstrapIcon from "../assets/images/Bootstrap.svg";
 import CLIIcon from "../assets/images/CLI.png";
 import CSSIcon from "../assets/images/CSS.svg";
+import DockerIcon from "../assets/images/Docker.svg";
 import ExpressIcon from "../assets/images/ExpressJS.svg";
 import FigmaIcon from "../assets/images/Figma.svg";
 import GitIcon from "../assets/images/Git.svg";
+import GoIcon from "../assets/images/Go.svg";
 import HTMLIcon from "../assets/images/HTML.svg";
 import JSIcon from "../assets/images/JS.svg";
 import MongoDBIcon from "../assets/images/MongoDB.svg";
@@ -93,6 +95,8 @@ const About = () => {
 													<img src={NodeJSIcon} />
 													<img src={ExpressIcon} />
 													<img src={MongoDBIcon} />
+													<img src={GoIcon} width={48} />
+													<img src={DockerIcon} />
 												</li>
 											</div>
 										</div>

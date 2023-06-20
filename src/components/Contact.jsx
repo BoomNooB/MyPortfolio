@@ -44,7 +44,7 @@ const Contact = () => {
 					<a href="mailto:boom@live.se">
 						<img src={Outlook} alt="Outlook" />
 					</a>
-					<a href="https://www.canva.com/design/DAFcrfUkUdw/WZUZ0jnQgGuqCFsWEHJizw/edit?utm_content=DAFcrfUkUdw">
+					<a href="https://www.canva.com/design/DAFmWfjgz5A/O7GkKGU-szXznGTJmpmtvw/edit?utm_content=DAFmWfjgz5A">
 						<img src={Resume} alt="Outlook" />
 					</a>
 				</Col>
