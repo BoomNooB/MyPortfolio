@@ -19,6 +19,9 @@ import GTraineeLogin from "../assets/images/G-trainee-Login-SS.png";
 import GTraineeHome from "../assets/images/G-trainee-Web-SS.jpg";
 import GoTodoListAPI from "../assets/images/Go-Todo-API.gif";
 import KeyboardBlog from "../assets/images/KeyboardBlog.jpg";
+import ScrollNoteIcon from "../assets/images/Scroll-Note.svg";
+import TicketGoReact from "../assets/images/TicketGoReact-2.png";
+import TicketGoReact2 from "../assets/images/TicketGoReact.gif";
 
 // Tech Stack Icons
 import BootstrapIcon from "../assets/images/Bootstrap.svg";

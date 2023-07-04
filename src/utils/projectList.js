@@ -7,6 +7,9 @@ import GTraineeLogin from "../assets/images/G-trainee-Login-SS.png";
 import GTraineeHome from "../assets/images/G-trainee-Web-SS.jpg";
 import GoTodoListAPI from "../assets/images/Go-Todo-API.gif";
 import KeyboardBlog from "../assets/images/KeyboardBlog.jpg";
+import ScrollNoteIcon from "../assets/images/Scroll-Note.svg";
+import TicketGoReact from "../assets/images/TicketGoReact-2.png";
+import TicketGoReact2 from "../assets/images/TicketGoReact.gif";
 
 // Tech Stack Icons
 import BootstrapIcon from "../assets/images/Bootstrap.svg";
@@ -60,7 +63,53 @@ const projectList = [
 		images: [GTraineeLogin, GTraineeHome],
 	},
 	{
-		name: "Go: To-Do List API ",
+		name: "Simple Ticket Management System",
+
+		description: `&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		I created a practice project for a 
+		<span className="projectTextHighlightOrange">
+		Ticket Management System
+		</span>
+		using ReactJS for the frontend and Go with the 
+		<span className="projectTextHighlightPink">
+		Gin-gonic 
+		</span>
+		framework for the backend, 
+		leveraging a
+		<span className="projectTextHighlightPink">
+		MongoDB 
+		</span>
+		database. The project focused on implementing basic functionalities such as ticket creation, 
+		tracking, and status management through 
+		<span className="projectTextHighlightPink">
+		GET, POST, and PUT 
+		</span>
+		methods. 
+		I intentionally excluded the DELETE method to prevent accidental ticket deletion, 
+		the project served as a valuable learning experience in building a Single-Page Application.
+
+		`,
+		techStack: {
+			frontEnd: [ReactIcon],
+			backEnd: [GoIcon, MongoDBIcon],
+			other: null,
+		},
+		visit: [
+			{
+				website: "https://ticket-management-go-reactjs.vercel.app",
+				linkImage: ScrollNoteIcon,
+			},
+			{
+				website: "https://github.com/BoomNooB/ticket-management-go-reactjs",
+				linkImage: GithubIcon,
+			},
+		],
+
+		images: [TicketGoReact, TicketGoReact2],
+	},
+
+	{
+		name: "Go: To-Do List API",
 
 		description: `&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		I recently completed a project where I developed the 
